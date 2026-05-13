@@ -13,8 +13,8 @@ console.log(frutas[frutas.length - 1]);
 let numeros = [10, 20, 30, 40, 50, 60];
 let soma = 0;
 
-// Percorrendo a lista
-for (let i = 0; i < numeros.length; i++) {inde
+// Percorrendo a lista (Erro 'inde' removido aqui)
+for (let i = 0; i < numeros.length; i++) {
     soma += numeros[i];
 }
 
@@ -47,4 +47,3 @@ let filmes = [
 for (let i = 0; i < filmes.length; i++) {
     console.log("Filme: " + filmes[i][0] + " | Ano: " + filmes[i][1] + " | Gênero: " + filmes[i][2]);
 }
-
