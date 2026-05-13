@@ -1,7 +1,7 @@
 let frutas = ['Maçã', 'Banana', 'Laranja', 'Morango', 'Uva'];
 console.log(frutas);
 console.log(frutas[0]);
-console.log(frutas[frutas.length - 1]);
+console.log(frutas[4]);
 
 let numeros = [104, 200, 479, 40, 50, 400];
 let soma = 0;
